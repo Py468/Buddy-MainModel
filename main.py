@@ -9,11 +9,10 @@ CORS(app)
 
 # DB config
 db_user = "root"
-db_password = "ibkRHUeCrHDKobJVeQavaJZQdRInLPwl"
-db_host = "maglev.proxy.rlwy.net"
-db_port = "54251"
+db_password = "YgrEdVrJlVezppCpSdjvygIeNuBViuGe"
+db_host = "shuttle.proxy.rlwy.net"
 db_name = "railway"
-
+db_port="16597"
 # SQLAlchemy engine with Railway MySQL
 engine = create_engine(
     f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
